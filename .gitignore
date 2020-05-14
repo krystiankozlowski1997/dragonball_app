@@ -3,7 +3,7 @@
 /public/storage
 /storage/*.key
 /dragonball_app/vendor
-.env
+dragonball_app/.env
 .env.backup
 .phpunit.result.cache
 Homestead.json
