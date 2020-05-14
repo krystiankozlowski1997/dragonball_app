@@ -1,5 +1,35 @@
 @import url(https://fonts.googleapis.com/css?family=Nunito);@charset "UTF-8";
 
+/* alternate colors */
+
+/* corner values for bubble up and down */
+
+.lbvtUL {
+  box-sizing: border-box;
+  cursor: pointer;
+  letter-spacing: 0.16em;
+  font-weight: 700;
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  box-shadow: rgba(0, 63, 126, 0.54) 0px 10px 27px;
+  opacity: 1;
+  color: white;
+  width: 15rem;
+  border-width: initial;
+  border-style: none;
+  border-color: initial;
+  -o-border-image: initial;
+     border-image: initial;
+  background: none #007fff;
+  padding: 1rem 1.7rem 0.9rem;
+  transition: transform 0.15s ease-out 0s, box-shadow 0.15s ease-out 0s;
+}
+
+.lbvtUL:hover {
+  box-shadow: rgba(0, 63, 126, 0.54) 0px 18px 40px;
+  transform: scale(1.05);
+}
+
 /*!
  * Bootstrap v4.5.0 (https://getbootstrap.com/)
  * Copyright 2011-2020 The Bootstrap Authors
