@@ -68909,8 +68909,8 @@ function _taggedTemplateLiteral(strings, raw) { if (!raw) { raw = strings.slice(
 
 
 var Button = styled_components__WEBPACK_IMPORTED_MODULE_0__["default"].button(_templateObject(), function (_ref) {
-  var secondary = _ref.secondary;
-  return secondary ? '#007FFF' : '#FF7F50';
+  var color = _ref.color;
+  return color;
 });
 /* harmony default export */ __webpack_exports__["default"] = (Button);
 
