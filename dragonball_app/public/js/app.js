@@ -68896,7 +68896,7 @@ window.axios.defaults.headers.common['X-Requested-With'] = 'XMLHttpRequest';
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! styled-components */ "./node_modules/styled-components/dist/styled-components.browser.esm.js");
 function _templateObject() {
-  var data = _taggedTemplateLiteral(["\n  box-sizing: border-box;\n  cursor: pointer;\n  letter-spacing: 0.16em;\n  font-weight: 700;\n  font-size: 0.75rem;\n  text-transform: uppercase;\n  box-shadow: rgba(0, 63, 126, 0.54) 0px 10px 27px;\n  opacity: 1;\n  color: rgb(255, 255, 255);\n  width: 15rem;\n  border-width: initial;\n  border-style: none;\n  border-color: initial;\n  border-image: initial;\n  background: none ", ";\n  padding: 1rem 1.7rem 0.9rem;\n  transition: transform 0.15s ease-out 0s, box-shadow 0.15s ease-out 0s;\n  &:hover{\n      box-shadow: rgba(0, 63, 126, 0.54) 0px 18px 40px;\n      transform: scale(1.05);\n  }\n"]);
+  var data = _taggedTemplateLiteral(["\n  box-sizing: border-box;\n  cursor: pointer;\n  letter-spacing: 0.16em;\n  font-weight: 300;\n  font-size: 1.6rem;\n  text-transform: uppercase;\n  box-shadow: rgba(0, 63, 126, 0.54) 0px 10px 27px;\n  opacity: 1;\n  color: rgb(255, 255, 255);\n  width: 15rem;\n  border-width: initial;\n  border-style: none;\n  border-color: initial;\n  border-image: initial;\n  background: none ", ";\n  padding: 1rem 1.7rem 0.9rem;\n  transition: transform 0.15s ease-out 0s, box-shadow 0.15s ease-out 0s;\n  &:hover{\n      box-shadow: rgba(0, 63, 126, 0.54) 0px 18px 40px;\n      transform: scale(1.05);\n  }\n"]);
 
   _templateObject = function _templateObject() {
     return data;
@@ -68937,6 +68937,34 @@ react_dom__WEBPACK_IMPORTED_MODULE_1___default.a.render( /*#__PURE__*/react__WEB
 
 /***/ }),
 
+/***/ "./resources/js/theme/Global_Style.js":
+/*!********************************************!*\
+  !*** ./resources/js/theme/Global_Style.js ***!
+  \********************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! styled-components */ "./node_modules/styled-components/dist/styled-components.browser.esm.js");
+function _templateObject() {
+  var data = _taggedTemplateLiteral(["\n  @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;600&display=swap');\n\n  *, *::before, *::after{\n    box-sizing: border-box;\n    -webkit-font-smoothing: antialiased;\n    -moz-osx-font-smoothing: grayscale;\n  }\n\n  html {\n    font-size: 62.5%;\n  }\n\n  body {\n    font-size: 1.6rem;\n    font-family: 'Raleway', sans-serif;\n  }\n"]);
+
+  _templateObject = function _templateObject() {
+    return data;
+  };
+
+  return data;
+}
+
+function _taggedTemplateLiteral(strings, raw) { if (!raw) { raw = strings.slice(0); } return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } })); }
+
+
+var Global_Style = Object(styled_components__WEBPACK_IMPORTED_MODULE_0__["createGlobalStyle"])(_templateObject());
+/* harmony default export */ __webpack_exports__["default"] = (Global_Style);
+
+/***/ }),
+
 /***/ "./resources/js/views/Root/Root.js":
 /*!*****************************************!*\
   !*** ./resources/js/views/Root/Root.js ***!
@@ -68949,11 +68977,13 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var _components_atoms_Button__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @/components/atoms/Button */ "./resources/js/components/atoms/Button.js");
+/* harmony import */ var _theme_Global_Style__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @/theme/Global_Style */ "./resources/js/theme/Global_Style.js");
+
 
 
 
 var Root = function Root() {
-  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_atoms_Button__WEBPACK_IMPORTED_MODULE_1__["default"], null, "Rozwi\u0105\u017C"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_atoms_Button__WEBPACK_IMPORTED_MODULE_1__["default"], {
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_theme_Global_Style__WEBPACK_IMPORTED_MODULE_2__["default"], null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_atoms_Button__WEBPACK_IMPORTED_MODULE_1__["default"], null, "Rozwi\u0105\u017C"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_atoms_Button__WEBPACK_IMPORTED_MODULE_1__["default"], {
     secondary: true
   }, "Za\u0142o\u017C"));
 };

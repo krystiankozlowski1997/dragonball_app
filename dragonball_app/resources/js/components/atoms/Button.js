@@ -4,8 +4,8 @@ const Button = styled.button`
   box-sizing: border-box;
   cursor: pointer;
   letter-spacing: 0.16em;
-  font-weight: 700;
-  font-size: 0.75rem;
+  font-weight: 300;
+  font-size: 1.6rem;
   text-transform: uppercase;
   box-shadow: rgba(0, 63, 126, 0.54) 0px 10px 27px;
   opacity: 1;
