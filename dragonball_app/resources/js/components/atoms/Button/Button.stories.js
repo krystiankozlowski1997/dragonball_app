@@ -10,9 +10,9 @@ storiesOf('Button', module)
     .add('Primary', () => {
         const label = 'Colors';
         const options = {
-            Sayans:'#ff7f00',
-            Namechans: '#00fe69',
-            Freeza: '#003153'
+            sayans:'#ff7f00',
+            namechans: '#00fe69',
+            freeza: '#003153'
         }
         const defaultValue = '#ff7f00';
         const groupId = 'GROUP-ID1';

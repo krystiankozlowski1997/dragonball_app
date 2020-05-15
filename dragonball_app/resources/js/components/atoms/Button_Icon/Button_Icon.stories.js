@@ -12,7 +12,7 @@ const YellowBackground = styled.div`
   align-items: center;
   width: 500px;
   height: 500px;
-  background: ${({theme}) => theme.Sayans};
+  background: ${({theme}) => theme.sayans};
 `;
 
 storiesOf('Button_Icon', module)

@@ -1,7 +1,7 @@
 export const theme = {
-    Sayans:'#ff7f00',
-    Namechans: '#00fe69',
-    Freeza: '#003153',
+    sayans:'#ff7f00',
+    namechans: '#00fe69',
+    freeza: '#9932CC',
     grey100: 'hsl(0, 0%, 96%)',
     grey200: 'hsl(0, 0%, 90%)',
     grey300: 'hsl(0, 0%, 70%)',

@@ -15,7 +15,7 @@ const Button = styled.button`
   border-style: none;
   border-color: initial;
   border-image: initial;
-  background: none ${({ color }) => color};
+  background: none ${({secondary, theme}) => secondary ? theme.grey200 : theme.Sayans};
   padding: 1rem 1.7rem 0.9rem;
   transition: transform 0.15s ease-out 0s, box-shadow 0.15s ease-out 0s;
   &:hover{
