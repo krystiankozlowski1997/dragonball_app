@@ -68885,10 +68885,10 @@ window.axios.defaults.headers.common['X-Requested-With'] = 'XMLHttpRequest';
 
 /***/ }),
 
-/***/ "./resources/js/components/atoms/Button.js":
-/*!*************************************************!*\
-  !*** ./resources/js/components/atoms/Button.js ***!
-  \*************************************************/
+/***/ "./resources/js/components/atoms/Button/Button.js":
+/*!********************************************************!*\
+  !*** ./resources/js/components/atoms/Button/Button.js ***!
+  \********************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -68976,14 +68976,14 @@ var Global_Style = Object(styled_components__WEBPACK_IMPORTED_MODULE_0__["create
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var _components_atoms_Button__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @/components/atoms/Button */ "./resources/js/components/atoms/Button.js");
+/* harmony import */ var _components_atoms_Button_Button__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @/components/atoms/Button/Button */ "./resources/js/components/atoms/Button/Button.js");
 /* harmony import */ var _theme_Global_Style__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @/theme/Global_Style */ "./resources/js/theme/Global_Style.js");
 
 
 
 
 var Root = function Root() {
-  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_theme_Global_Style__WEBPACK_IMPORTED_MODULE_2__["default"], null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_atoms_Button__WEBPACK_IMPORTED_MODULE_1__["default"], null, "Rozwi\u0105\u017C"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_atoms_Button__WEBPACK_IMPORTED_MODULE_1__["default"], {
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_theme_Global_Style__WEBPACK_IMPORTED_MODULE_2__["default"], null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_atoms_Button_Button__WEBPACK_IMPORTED_MODULE_1__["default"], null, "Rozwi\u0105\u017C"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_atoms_Button_Button__WEBPACK_IMPORTED_MODULE_1__["default"], {
     secondary: true
   }, "Za\u0142o\u017C"));
 };

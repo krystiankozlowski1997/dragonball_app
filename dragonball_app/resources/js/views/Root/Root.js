@@ -1,5 +1,5 @@
 import React, {Fragment} from 'react';
-import Button from "@/components/atoms/Button";
+import Button from "@/components/atoms/Button/Button";
 import Global_Style from "@/theme/Global_Style";
 
 const Root = () => (
