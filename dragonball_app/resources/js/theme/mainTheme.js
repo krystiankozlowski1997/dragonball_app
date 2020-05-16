@@ -1,5 +1,5 @@
 export const theme = {
-    sayans:'#ff7f00',
+    sayans:'#00D4FF',
     namechans: '#00fe69',
     freeza: '#9932CC',
     grey100: 'hsl(0, 0%, 96%)',
