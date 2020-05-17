@@ -14,5 +14,7 @@
 <h3>
 	<code>npm run dev</code>
 </h3>
-<p>After compiling the app should be reachable at the site you are hosting the app on locally</p>
-<h2>Description App</h2>
+<p>To run localhost server</p>
+<h3>
+	<code>php artisan serve</code>
+</h3>
