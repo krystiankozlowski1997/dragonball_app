@@ -1,5 +1,4 @@
 <h1>Dragon_Ball_App(React + Laravel)</h1>
-<p>This project will be create with use Laravel and React</p>
 <h2>Installation</h2>
 <p>1.From your projects root folder to install PHP dependencies in terminal run:</p>
 <h3>
