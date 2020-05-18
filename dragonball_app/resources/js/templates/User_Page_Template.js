@@ -36,21 +36,12 @@ const Styled_Paragraph = styled(Paragraph)`
 const User_Page_Template = ({children, pageType}) => (
     <>
         <Sidebar pageType={pageType}/>
-        <Styled_Wrapper>
-            <Styled_Paged_Header>
-                <Input search placeholder="Search"/>
-                <Styled_Heading big as="h1">{pageType}</Styled_Heading>
-                <Styled_Paragraph>12 {pageType}</Styled_Paragraph>
-            </Styled_Paged_Header>
-            <Styled_Grid>
-                {children}
-            </Styled_Grid>
-        </Styled_Wrapper>
+        {children}
     </>
 );
 
 User_Page_Template.propTypes = {
-    children: PropTypes.element.isRequired,
+    children: PropTypes.oneOfType([PropTypes.element, PropTypes.node]),
 };
 
 export default User_Page_Template;

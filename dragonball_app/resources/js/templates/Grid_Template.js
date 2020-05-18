@@ -1,6 +1,7 @@
 import React from 'react';
 import Sidebar from "../components/organisms/Sidebar";
 import PropTypes from 'prop-types';
+import User_Page_Template from "./User_Page_Template";
 import Input from '../components/atoms/Input/Input';
 import Heading from '../components/atoms/Heading/Heading';
 import styled, { css } from 'styled-components';
@@ -33,9 +34,8 @@ const Styled_Paragraph = styled(Paragraph)`
     font-weight: {({theme}) => theme.bold}
 `;
 
-const User_Page_Template = ({children, pageType}) => (
-    <>
-        <Sidebar pageType={pageType}/>
+const Grid_Template= ({children, pageType}) => (
+    <User_Page_Template pageType={pageType}>
         <Styled_Wrapper>
             <Styled_Paged_Header>
                 <Input search placeholder="Search"/>
@@ -46,11 +46,11 @@ const User_Page_Template = ({children, pageType}) => (
                 {children}
             </Styled_Grid>
         </Styled_Wrapper>
-    </>
+    </User_Page_Template>
 );
 
-User_Page_Template.propTypes = {
-    children: PropTypes.element.isRequired,
+Grid_Template.propTypes = {
+    children: PropTypes.array.isRequired,
 };
 
-export default User_Page_Template;
+export default Grid_Template;
