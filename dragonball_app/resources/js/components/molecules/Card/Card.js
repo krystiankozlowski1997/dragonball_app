@@ -55,17 +55,16 @@ const Styled_Avatar = styled.img`
   top: 25px;
 `;
 
-const Card = ({cardType}) => (
+const Card = ({cardType, created, title, content, avatarSrc}) => (
     <Styled_Wrapper>
         <Inner_Wrapper activeColor={cardType}>
-            <Styled_Heading>Hello Roman</Styled_Heading>
-            <Date_Info>3 days</Date_Info>
-            <Styled_Avatar activeColor={cardType} src="https://www.screenja.com/static/img/thumbs/goku-ultra-instinct-1-normal-636.png"/>
+            <Styled_Heading>{title}</Styled_Heading>
+            <Date_Info>{created}</Date_Info>
+            <Styled_Avatar activeColor={cardType} src={avatarSrc}/>
         </Inner_Wrapper>
         <Inner_Wrapper flex>
             <Paragraph>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit nemo ducimus fuga
-                repellendus illum
+                {content}
             </Paragraph>
             <Button secondary>REMOVE</Button>
         </Inner_Wrapper>
@@ -74,10 +73,15 @@ const Card = ({cardType}) => (
 
 Card.propTypes = {
     cardType: PropTypes.oneOf(['sayans', 'namechans', 'freeza']),
+    title: PropTypes.string.isRequired,
+    created: PropTypes.string.isRequired,
+    avatarSrc: PropTypes.string,
+    content: PropTypes.string.isRequired,
 };
 
 Card.defaultProps = {
     cardType: 'sayans',
+    avatarSrc: null,
 };
 
 export default Card;
